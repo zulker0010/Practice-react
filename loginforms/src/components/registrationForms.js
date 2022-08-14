@@ -30,7 +30,7 @@ function RegistrationForm(){
     return(
         <div className="form">
             <div className="form-body">
-                <div classname="username">
+                <div className="username">
                     <label className="form__label" for="fullName">Name</label>
                     <input className="form__input" type="text" value={fullName} onChange ={(e) => handleInputChange(e)} id="fullName" placeholder="Name"></input>
                 </div>
@@ -46,6 +46,15 @@ function RegistrationForm(){
                     <label className="form__label" for="confirmPassword">Confirm Password</label>
                     <input className="form__input" type="password" id="confirmPassword" onChange={(e)=> handleInputChange(e)} placeholder="Confirm Passsword"/>
                 </div>  
+                <div className="gender">
+                    <label className="form__label" for="gender">Gender:</label>
+                    <input className="form__input" type="radio" id="gender1"></input>
+                    <label for="gneder1">Male</label>
+                    <input className="form__input" type="radio" id="gender2"></input>
+                    <label for="gender2">Female</label>
+                    <input className="form__input" type="radio" id="gender3"></input>
+                    <label for="gender3">Other</label>
+                </div>
             </div>
             
             

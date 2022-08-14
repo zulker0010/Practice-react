@@ -1,37 +1,49 @@
 body{
     background: #bdc3c7;
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: -webkit-linear-gradient(to right, #bd68eb, #bdc3c7);
+    background: linear-gradient(to right, #a641e1, #bdc3c7);
 }
 
 .form{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    width: 550px;
+    width: 600px;
     margin: 20px auto;
     padding: 20px; 
 
 }
 
+
 .form-body{
     text-align: left;
-    padding: 20px 10px;
+    padding: 10px 10px;
     
 }
 
 .form-body{
 padding: 5px;
+margin-top: 10px;
 
 }
 
 .form__label{
     width: 40%;
+
 }
 
 .form__input{
-    width:60%
+    width:60%;
+    margin-left: 3px;
+    margin-top: 15px;
 }
 
 .footer{
     text-align: center;
+    margin-top: 15px;
+
+}
+
+.btn{
+    background-color: #c965ff;
+    text-decoration-color: azure;
 }
