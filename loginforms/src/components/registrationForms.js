@@ -1,3 +1,4 @@
+
 import React, {useState, setState} from 'react';
 import './style.css'
 function RegistrationForm(){
@@ -49,7 +50,7 @@ function RegistrationForm(){
                 <div className="gender">
                     <label className="form__label" for="gender">Gender:</label>
                     <input className="form__input" type="radio" id="gender1"></input>
-                    <label for="gneder1">Male</label>
+                    <label for="gender1">Male</label>
                     <input className="form__input" type="radio" id="gender2"></input>
                     <label for="gender2">Female</label>
                     <input className="form__input" type="radio" id="gender3"></input>
